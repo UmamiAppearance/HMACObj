@@ -114,7 +114,7 @@ A set containing the names of the hash algorithms that are available.
 ##### ``HMACObj.keyFormats()``
 Static method to receive a set of the available key formats.
 
-##### ``HMACObj.new(key=null, msg=null, digestmod="", keyFormat="raw", permitExports=false)``
+##### ``HMACObj.new(key=null, msg=null, digestmod=""[, keyFormat="raw", permitExports=false])``
 Asynchronously creates a new instance. In contrast to the regular [new operator](#new-operator) a message and key can  be provided. If a message is set, a key must also be handed over or a crypto key gets generated automatically.  
   
 A message gets passed to the [``update``](#updateinput-replacefalse) method.
