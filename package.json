@@ -1,0 +1,52 @@
+{
+  "name": "hmac-obj",
+  "version": "1.0.0",
+  "description": "JavaScript implementation of HMAC generation and verification for the browser and node.js.",
+  "keywords": [
+    "browser",
+    "crypto",
+    "cryptography",
+    "hmac",
+    "subtlecrypto",
+    "Web Crypto API"
+  ],
+  "main": "./cjs/hmac-obj.cjs",
+  "module": "./src/hmac-obj.js",
+  "exports": {
+    "import": "./src/hmac-obj.js",
+    "require": "./cjs/hmac-obj.cjs"
+  },
+  "type": "module",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "build:cjs": "rollup ./src/hmac-obj.js --file ./cjs/hmac-obj.cjs --format cjs",
+    "lint": "eslint ./src/*",
+    "lint:fix": "eslint ./src/* --fix",
+    "start": "http-server -a localhost -o ./examples/live-examples.html",
+    "test": "no-bro-cote"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UmamiAppearance/HMACObject.git"
+  },
+  "author": "UmamiAppearance",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UmamiAppearance/HMACObject/issues"
+  },
+  "homepage": "https://github.com/UmamiAppearance/HMACObject#readme",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.2.1",
+    "eslint": "^8.31.0",
+    "http-server": "^14.1.1",
+    "no-bro-cote": "^0.2.10",
+    "rollup": "^3.9.1",
+    "rollup-plugin-import-manager": "^0.3.7"
+  },
+  "dependencies": {
+    "base-ex": "^0.7.1"
+  }
+}
