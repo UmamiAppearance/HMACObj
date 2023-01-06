@@ -127,7 +127,7 @@ Return ``a === b``. This function uses an approach designed to prevent timing an
 
 ``a`` and ``b`` (or more precisely their byte representation) must both be of the same type.
 
-##### ``HMACObj.baseEx``
+##### ``HMACObj.baseEx`` _[object]_
 A [BaseEx Instance](https://github.com/UmamiAppearance/BaseExJS#available-converterscharsets) for the possibility to manually convert (byte) representations.
 
 #### Instance

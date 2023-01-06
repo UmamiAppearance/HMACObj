@@ -7,6 +7,10 @@
     "crypto",
     "cryptography",
     "hmac",
+    "hmac-sha1",
+    "hmac-sha256",
+    "hmac-sha384",
+    "hmac-sha512",
     "subtlecrypto",
     "Web Crypto API"
   ],
