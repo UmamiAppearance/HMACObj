@@ -1,6 +1,6 @@
 {
   "name": "hmac-obj",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript implementation of HMAC generation and verification for the browser and node.js.",
   "keywords": [
     "browser",
@@ -34,14 +34,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UmamiAppearance/HMACObject.git"
+    "url": "git+https://github.com/UmamiAppearance/HMACObj.git"
   },
   "author": "UmamiAppearance",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/UmamiAppearance/HMACObject/issues"
+    "url": "https://github.com/UmamiAppearance/HMACObj/issues"
   },
-  "homepage": "https://github.com/UmamiAppearance/HMACObject#readme",
+  "homepage": "https://github.com/UmamiAppearance/HMACObj#readme",
   "devDependencies": {
     "@rollup/plugin-terser": "^0.2.1",
     "eslint": "^8.31.0",

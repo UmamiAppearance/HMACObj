@@ -85,7 +85,7 @@ var HMACObj = (function () {
     /**
      * [HMACObj]{@link https://github.com/UmamiAppearance/HMACObj}
      *
-     * @version 1.0.0
+     * @version 1.0.1
      * @author UmamiAppearance [mail@umamiappearance.eu]
      * @license MIT
      */
