@@ -36,7 +36,7 @@ npm run build
 * [``hmac-obj-bex.iife.js``](https://raw.githubusercontent.com/UmamiAppearance/HMACObj/main/dist/hmac-obj-bex.iife.js)
 * [``hmac-obj-bex.iife.min.js``](https://raw.githubusercontent.com/UmamiAppearance/HMACObj/main/dist/hmac-obj-bex.iife.min.js)
 
-#### Builds without BaseEx _(You have to make sure `BaseEx` is globally available)_
+#### Builds without BaseEx _(make sure `BaseEx` is globally available)_
 * [``hmac-obj.esm.js``](https://raw.githubusercontent.com/UmamiAppearance/HMACObj/main/dist/hmac-obj.esm.js)
 * [``hmac-obj.esm.min.js``](https://raw.githubusercontent.com/UmamiAppearance/HMACObj/main/dist/hmac-obj.esm.min.js)
 * [``hmac-obj.iife.js``](https://raw.githubusercontent.com/UmamiAppearance/HMACObj/main/dist/hmac-obj.iife.js)
@@ -150,7 +150,7 @@ _(Note: The process is a concatenation of bytes. Take as an exception for instan
 ##### ``replace(input)``
 Replace the the HMAC object with fresh input (the same as ``update(input, true)``).
 
-##### ``sign(msg, base=null)``
+##### ``sign(msg[, base=null])``
 Signs a single message independent from the current instance message. If a base is provided, the key gets returned in the corresponding [base representation](https://umamiappearance.github.io/HMACObj/examples/live-examples.html#base-representations).
 
 ##### ``verify(msg, signature)``
