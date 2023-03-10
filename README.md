@@ -162,7 +162,7 @@ Method to set or replace the associated crypto key. The key must be as provided 
 ##### ``generateKey(permitExports=true)``
 Like the [static method](#hmacobjgeneratekey), with the difference, that the key is not returned but assigned to the instance. By default the key is exportable.
 
-##### ``importKey(key[, format="raw", permitExports=false])
+##### ``importKey(key[, format="raw", permitExports=false])``
 Import a Crypto Key from almost any input or a pre existing key.
 
 ##### ``exportKey(format="raw")``
