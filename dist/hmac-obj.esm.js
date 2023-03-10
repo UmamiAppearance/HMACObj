@@ -82,7 +82,7 @@ const getDigestModFromParam = (digestmod, digestmods) => {
 /**
  * [HMACObj]{@link https://github.com/UmamiAppearance/HMACObj}
  *
- * @version 1.0.1
+ * @version 1.0.2
  * @author UmamiAppearance [mail@umamiappearance.eu]
  * @license MIT
  */
