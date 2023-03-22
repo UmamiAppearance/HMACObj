@@ -1,6 +1,6 @@
 {
   "name": "hmac-obj",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "JavaScript implementation of HMAC generation and verification for the browser and node.js.",
   "keywords": [
     "browser",
@@ -26,7 +26,7 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "build:cjs": "rollup ./src/hmac-obj.js --file ./cjs/hmac-obj.cjs --format cjs",
+    "build:cjs": "rollup ./src/hmac-obj.js --file ./cjs/hmac-obj.cjs --format cjs -m",
     "lint": "eslint ./src/*",
     "lint:fix": "eslint ./src/* --fix",
     "start": "http-server -a localhost -o ./examples/live-examples.html",
@@ -44,13 +44,13 @@
   "homepage": "https://github.com/UmamiAppearance/HMACObj#readme",
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.0",
-    "eslint": "^8.35.0",
+    "eslint": "^8.36.0",
     "http-server": "^14.1.1",
-    "no-bro-cote": "^0.2.13",
-    "rollup": "^3.19.0",
-    "rollup-plugin-import-manager": "^0.5.2"
+    "no-bro-cote": "^0.2.14",
+    "rollup": "^3.20.0",
+    "rollup-plugin-import-manager": "^0.5.3"
   },
   "dependencies": {
-    "base-ex": "^0.7.4"
+    "base-ex": "^0.7.5"
   }
 }
