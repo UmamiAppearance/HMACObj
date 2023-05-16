@@ -1535,10 +1535,11 @@ var HMACObj = (function () {
     /**
      * [BaseEx|Base1 Converter]{@link https://github.com/UmamiAppearance/BaseExJS/blob/main/src/converters/base-1.js}
      *
-     * @version 0.7.5
+     * @version 0.7.6
      * @author UmamiAppearance [mail@umamiappearance.eu]
      * @license MIT
      */
+
 
     /**
      * BaseEx Base 1 Converter.
@@ -1691,10 +1692,11 @@ var HMACObj = (function () {
     /**
      * [BaseEx|Base16 Converter]{@link https://github.com/UmamiAppearance/BaseExJS/blob/main/src/converters/base-16.js}
      *
-     * @version 0.7.5
+     * @version 0.7.6
      * @author UmamiAppearance [mail@umamiappearance.eu]
      * @license MIT
      */
+
 
     /**
      * BaseEx Base 16 Converter.
@@ -1779,10 +1781,11 @@ var HMACObj = (function () {
     /**
      * [BaseEx|Base32 Converter]{@link https://github.com/UmamiAppearance/BaseExJS/blob/main/src/converters/base-32.js}
      *
-     * @version 0.7.5
+     * @version 0.7.6
      * @author UmamiAppearance [mail@umamiappearance.eu]
      * @license MIT
      */
+
 
     /**
      * BaseEx Base 32 Converter.
@@ -1884,10 +1887,11 @@ var HMACObj = (function () {
     /**
      * [BaseEx|Base58 Converter]{@link https://github.com/UmamiAppearance/BaseExJS/blob/main/src/converters/base-58.js}
      *
-     * @version 0.7.5
+     * @version 0.7.6
      * @author UmamiAppearance [mail@umamiappearance.eu]
      * @license MIT
      */
+
 
     /**
      * BaseEx Base 58 Converter.
@@ -2034,10 +2038,11 @@ var HMACObj = (function () {
     /**
      * [BaseEx|Base64 Converter]{@link https://github.com/UmamiAppearance/BaseExJS/blob/main/src/converters/base-64.js}
      *
-     * @version 0.7.5
+     * @version 0.7.6
      * @author UmamiAppearance [mail@umamiappearance.eu]
      * @license MIT
      */
+
 
     /**
      * BaseEx Base 64 Converter.
@@ -2122,10 +2127,11 @@ var HMACObj = (function () {
     /**
      * [BaseEx|UUencode Converter]{@link https://github.com/UmamiAppearance/BaseExJS/blob/main/src/converters/uuencode.js}
      *
-     * @version 0.7.5
+     * @version 0.7.6
      * @author UmamiAppearance [mail@umamiappearance.eu]
      * @license MIT
      */
+
 
     /**
      * BaseEx UUencode Converter.
@@ -2326,10 +2332,11 @@ var HMACObj = (function () {
     /**
      * [BaseEx|Base85 Converter]{@link https://github.com/UmamiAppearance/BaseExJS/blob/main/src/converters/base-85.js}
      *
-     * @version 0.7.5
+     * @version 0.7.6
      * @author UmamiAppearance [mail@umamiappearance.eu]
      * @license MIT
      */
+
 
     /**
      * BaseEx Base 85 Converter.
@@ -2449,10 +2456,11 @@ var HMACObj = (function () {
     /**
      * [BaseEx|Base91 Converter]{@link https://github.com/UmamiAppearance/BaseExJS/blob/main/src/converters/base-91.js}
      *
-     * @version 0.7.5
+     * @version 0.7.6
      * @author UmamiAppearance [mail@umamiappearance.eu]
      * @license MIT AND BSD-3-Clause (Base91, Copyright (c) 2000-2006 Joachim Henke)
      */
+
 
     /**
      * BaseEx Base 91 Converter.
@@ -2682,10 +2690,11 @@ var HMACObj = (function () {
     /**
      * [BaseEx|LEB128 Converter]{@link https://github.com/UmamiAppearance/BaseExJS/blob/main/src/converters/leb-128.js}
      *
-     * @version 0.7.5
+     * @version 0.7.6
      * @author UmamiAppearance [mail@umamiappearance.eu]
      * @license MIT
      */
+
 
     /**
      * BaseEx Little Endian Base 128 Converter.
@@ -2847,11 +2856,12 @@ var HMACObj = (function () {
     /**
      * [BaseEx|Ecoji Converter]{@link https://github.com/UmamiAppearance/BaseExJS/blob/main/src/converters/ecoji.js}
      *
-     * @version 0.7.5
+     * @version 0.7.6
      * @author UmamiAppearance [mail@umamiappearance.eu]
      * @license MIT OR Apache-2.0
      * @see https://github.com/keith-turner/ecoji
      */
+
 
     /**
      * BaseEx Ecoji (a Base 1024) Converter.
@@ -3189,10 +3199,11 @@ var HMACObj = (function () {
     /**
      * [BaseEx|Base2048 Converter]{@link https://github.com/UmamiAppearance/BaseExJS/blob/main/src/converters/base-2048.js}
      *
-     * @version 0.7.5
+     * @version 0.7.6
      * @author UmamiAppearance [mail@umamiappearance.eu]
      * @license MIT
      */
+
 
     /**
      * BaseEx Base 2048 Converter.
@@ -3367,10 +3378,11 @@ var HMACObj = (function () {
     /**
      * [BaseEx|SimpleBase Converter]{@link https://github.com/UmamiAppearance/BaseExJS/blob/main/src/converters/simple-base.js}
      *
-     * @version 0.7.5
+     * @version 0.7.6
      * @author UmamiAppearance [mail@umamiappearance.eu]
      * @license MIT
      */
+
 
 
     /**
@@ -3467,10 +3479,11 @@ var HMACObj = (function () {
     /**
      * [BaseEx|BasePhi Converter]{@link https://github.com/UmamiAppearance/BaseExJS/blob/main/src/converters/base-phi.js}
      *
-     * @version 0.7.5
+     * @version 0.7.6
      * @author UmamiAppearance [mail@umamiappearance.eu]
      * @license MIT
      */
+
 
     /**
      * BaseEx Base Phi Converter.
@@ -3804,10 +3817,11 @@ var HMACObj = (function () {
     /**
      * [BaseEx|Byte Converter]{@link https://github.com/UmamiAppearance/BaseExJS/blob/main/src/converters/byte-converter.js}
      *
-     * @version 0.7.5
+     * @version 0.7.6
      * @author UmamiAppearance [mail@umamiappearance.eu]
      * @license MIT
      */
+
 
     // Endianness of the system
     const LITTLE_ENDIAN = (() => {
@@ -3922,10 +3936,11 @@ var HMACObj = (function () {
     /**
      * [BaseEx]{@link https://github.com/UmamiAppearance/BaseExJS}
      *
-     * @version 0.7.5
+     * @version 0.7.6
      * @author UmamiAppearance [mail@umamiappearance.eu]
      * @license MIT
      */
+
 
     /**
      * BaseEx Converter Collection.
@@ -3985,10 +4000,11 @@ var HMACObj = (function () {
     /**
      * [HMACObj]{@link https://github.com/UmamiAppearance/HMACObj}
      *
-     * @version 1.0.3
+     * @version 1.0.4
      * @author UmamiAppearance [mail@umamiappearance.eu]
      * @license MIT
      */
+
 
     let BASE_EX;
     if (typeof BaseEx === "undefined") {

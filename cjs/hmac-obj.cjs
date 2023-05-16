@@ -86,10 +86,11 @@ const getDigestModFromParam = (digestmod, digestmods) => {
 /**
  * [HMACObj]{@link https://github.com/UmamiAppearance/HMACObj}
  *
- * @version 1.0.3
+ * @version 1.0.4
  * @author UmamiAppearance [mail@umamiappearance.eu]
  * @license MIT
  */
+
 
 let BASE_EX;
 if (typeof baseEx.BaseEx === "undefined") {
